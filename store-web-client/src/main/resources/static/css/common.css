@@ -1,0 +1,55 @@
+header{
+    width: 1440px;
+    height: 125px;
+    margin: 0 auto;
+
+    background-color: lightseagreen;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.35);
+
+    position: relative;
+
+    border-radius: 10px;
+}
+
+header>h1{
+    color: whitesmoke;
+    font-size: 48px;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+
+header>ul{
+    position: absolute;
+    top: 46px;
+    right: 100px;
+}
+
+header>ul li{
+    display: inline-block;
+}
+
+header>ul a{
+    color: whitesmoke;
+    font-size: 32px;
+    margin-left: 35px;
+    font-weight: 600;
+}
+
+header>ul a:hover{
+    color: orange;
+}
+
+footer{
+    width: 1440px;
+    height: 225px;
+    margin: 40px auto;
+
+    background-color: lightseagreen;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.35);
+
+    position: relative;
+
+    border-radius: 10px;
+}

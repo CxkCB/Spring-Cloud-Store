@@ -1,0 +1,50 @@
+#loginBox{
+    width: 900px;
+    height: auto;
+    background-color: lightseagreen;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.35);
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 50px;
+    margin: 100px auto 100px;
+}
+
+#loginBox>h1{
+    color: whitesmoke;
+    font-size: 60px;
+}
+
+#loginBox>.items{
+    margin-top: 40px;
+}
+
+#loginBox>.items span{
+    color: whitesmoke;
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#loginBox>.items input{
+    border: 2px solid #999;
+    border-radius: 10px;
+    height: 45px;
+    width: 350px;
+    outline: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#loginBox>.items button{
+    width: 140px;
+    height: 50px;
+    border: 10px;
+    color: lightseagreen;
+    font-size: 32px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.35);
+    margin-bottom: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+}

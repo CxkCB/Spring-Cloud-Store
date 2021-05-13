@@ -1,6 +1,9 @@
 spring:
   application:
     name: web-client
+  thymeleaf:
+    prefix: classpath:/static/
+    suffix: .html
 server:
   port: 8080
 eureka:

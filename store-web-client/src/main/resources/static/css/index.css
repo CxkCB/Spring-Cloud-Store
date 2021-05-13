@@ -1,0 +1,98 @@
+#navBox{
+    width: 1440px;
+    height: 490px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#navBox>#navBar{
+    width: 400px;
+    height: 450px;
+
+    display: inline-block;
+
+    border-radius: 10px;
+    background-color: lightseagreen;
+
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.35);
+
+    position: absolute;
+    top: 40px;
+    left: 0;
+
+    padding: 10px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#navBox>#navBar dl{
+    width: 100%;
+    margin-top: 20px;
+}
+
+#navBox>#navBar dt{
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    border-left: 4px solid orange;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#navBox>#navBar dd{
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #444;
+    margin-right: 10px;
+}
+
+#navBox>#imageBox{
+    width: 1000px;
+    height: 450px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.35);
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    right: 0;
+
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* index hotBox */
+
+#hotBox{
+    width: 1440px;
+    border-radius: 10px;
+    margin: 30px auto 0;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.35);
+
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+#hotBox>h1{
+    color: lightseagreen;
+    border-left: 4px solid lightseagreen;
+    margin: 40px;
+    padding-left: 20px;
+
+}
+
+#hotBox>ul{
+    width: 1350px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 50px;
+}
+
+#hotBox>ul li{
+    height: 325px;
+    width: 225px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.35);
+}

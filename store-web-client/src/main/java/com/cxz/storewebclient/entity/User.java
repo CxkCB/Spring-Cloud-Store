@@ -1,4 +1,4 @@
-package com.cxz.storeuserservice.entity;
+package com.cxz.storewebclient.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

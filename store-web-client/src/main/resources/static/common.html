@@ -1,0 +1,27 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<div th:fragment="source">
+  <link rel="stylesheet" href="/css/common.css">
+  <link rel="stylesheet" href="/css/reset.css">
+</div>
+
+<div th:fragment="header">
+  <header>
+
+    <h1>AYSTORE</h1>
+
+    <ul>
+      <li th:if="${session.user == null}"><a href="/login">登录</a></li>
+      <li th:if="${session.user == null}"><a href="#">注册</a></li>
+      <li th:if="${session.user != null}"><a th:text="${session.user.getUserNickname()}"></a></li>
+      <li th:if="${session.user != null}"><a href="#">购物车</a></li>
+    </ul>
+
+  </header>
+</div>
+
+<div th:fragment="footer">
+  <footer>
+
+  </footer>
+</div>
