@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/store-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/store-web-client/pom.xml" />
         <option value="$PROJECT_DIR$/store-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/store-product-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

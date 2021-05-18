@@ -1,10 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>注册</title>
+    <th:block th:include="common.html :: source"></th:block>
+    <link rel="stylesheet" href="/css/register.css">
 </head>
 <body>
+
+<th:block th:include="common.html :: header"></th:block>
+
+<form action="/user/register">
+
+    <div id="registerBox">
+
+        <h1>注册</h1>
+
+        <div class="items">
+            <span>用户昵称：</span><input type="text" name="nickname" placeholder="在此输入昵称" />
+        </div>
+
+        <div class="items">
+            <span>手机号码：</span><input type="number" name="phone" placeholder="在此输入手机号" />
+        </div>
+
+        <div class="items">
+            <span>登录密码：</span><input type="text" name="password" placeholder="在此输入登陆密码" />
+        </div>
+
+        <div class="items">
+            <span>确认密码：</span><input type="text" name="confirmPhone" placeholder="在此确认密码" />
+        </div>
+
+        <div class="items">
+            <button type="submit">注册</button>
+        </div>
+
+    </div>
+
+</form>
+
+<th:block th:include="common.html :: footer"></th:block>
 
 </body>
 </html>

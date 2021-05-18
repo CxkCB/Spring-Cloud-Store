@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="store-web-client" />
         <module name="store-user-service" />
+        <module name="store-product-service" />
         <module name="store-eureka-server" />
         <module name="TestProject" />
       </profile>
@@ -20,6 +21,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="store-eureka-server" options="-parameters" />
+      <module name="store-product-service" options="-parameters" />
       <module name="store-user-service" options="-parameters" />
       <module name="store-web-client" options="-parameters" />
     </option>
